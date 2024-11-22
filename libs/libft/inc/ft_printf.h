@@ -6,10 +6,9 @@
 /*   By: jsilva-m <jsilva-m@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/03 09:35:34 by jsilva-m          #+#    #+#             */
-/*   Updated: 2024/10/03 09:35:35 by jsilva-m         ###   ########.fr       */
+/*   Updated: 2024/10/25 10:10:57 by jsilva-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H

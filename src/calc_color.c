@@ -6,10 +6,9 @@
 /*   By: jsilva-m <jsilva-m@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/03 09:31:02 by jsilva-m          #+#    #+#             */
-/*   Updated: 2024/10/03 09:31:03 by jsilva-m         ###   ########.fr       */
+/*   Updated: 2024/10/25 11:07:03 by jsilva-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "../inc/fractol.h"
 
@@ -27,6 +26,7 @@ double	smooth_color(t_fractal *f)
 	else
 		return (0.0);
 }
+
 uint32_t	interpolate_color(t_rgb first, t_rgb second, double t)
 {
 	t_rgb	new_color;

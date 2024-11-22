@@ -6,10 +6,9 @@
 /*   By: jsilva-m <jsilva-m@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/03 09:35:41 by jsilva-m          #+#    #+#             */
-/*   Updated: 2024/10/03 09:35:42 by jsilva-m         ###   ########.fr       */
+/*   Updated: 2024/10/25 10:44:44 by jsilva-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H

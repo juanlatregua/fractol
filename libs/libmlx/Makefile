@@ -6,7 +6,7 @@
 #    By: jsilva-m <jsilva-m@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/26 21:32:49 by W2Wizard          #+#    #+#              #
-#    Updated: 2024/10/03 09:25:49 by jsilva-m         ###   ########.fr        #
+#    Updated: 2024/11/22 10:51:11 by jsilva-m         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ INCLUDE_DIR	:= include
 override HEADERS += -I $(INCLUDE_DIR)
 
 CFLAGS :=	-Wextra -Wall -Werror -Wunreachable-code -Wno-char-subscripts -Wno-sign-compare \
-			-DLODEPNG_NO_COMPILE_ANCILLARY_CHUNKS -DLODEPNG_NO_COMPILE_ENCODER
+			-DLODEPNG_NO_COMPILE_ANCILLARY_CHUNKS -DLODEPNG_NO_COMPILE_ENCODER -fPIE
 ifdef DEBUG
 	CFLAGS += -g
 else

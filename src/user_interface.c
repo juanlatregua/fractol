@@ -6,10 +6,9 @@
 /*   By: jsilva-m <jsilva-m@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/03 09:31:35 by jsilva-m          #+#    #+#             */
-/*   Updated: 2024/10/03 09:31:36 by jsilva-m         ###   ########.fr       */
+/*   Updated: 2024/11/22 09:39:43 by jsilva-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "../inc/fractol.h"
 
@@ -32,8 +31,8 @@ void	ft_print_usage(void)
 	ft_printf(" ║             \033[36m4\033[0m - Tricorn                 ║\n");
 	ft_printf(" ║                                         ║\n");
 	ft_printf(" ╚═════════════════════════════════════════╝\n\n");
-	ft_printf(" In the program press \033[36mH\033[0m for more information\n\n");
-	ft_printf(" For \033[36mjulia\033[0m you can enter the \033[33mstart position\033[0m\n");
+	ft_printf(" Press \033[36mH\033[0m More information\n\n");
+	ft_printf(" For \033[36mjulia\033[0m Enter the \033[33m start\033[0m\n");
 	ft_printf(" example:\n");
 	ft_printf("\t./fractol \033[36m1\033[0m\n");
 	ft_printf("\t./fractol \033[36m2\033[0m \033[33m-0.835 -0.2321\033[0m\n");
