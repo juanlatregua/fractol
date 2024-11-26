@@ -4,13 +4,14 @@ CC = gcc
 UNAME = $(shell uname)
 CFLAGS = -Wall -Werror -Wextra
 LFLAGS = $(LIBMLX_DIR)/libmlx42.a
-INC = -I $(INC_DIR) -I $(LIBFT_DIR)/inc -I $(LIBMLX_DIR)/include/MLX42
+INC = -I $(INC_DIR) -I $(LIBFT_DIR)/inc -I $(LIBMLX_DIR)/include/MLX42 -I /opt/homebrew/opt/glfw/include
 LIBS = $(LIBFT_DIR)/libft.a $(LIBMLX_DIR)/libmlx42.a
 RM = rm -rf
 
 ifeq ($(UNAME), Darwin)
 # mac
     LFLAGS += -lglfw -L /opt/homebrew/opt/glfw/lib
+    LFLAGS += -framework Cocoa -framework OpenGL -framework IOKit
 else ifeq ($(UNAME), Linux)
 # Linux
     LFLAGS += -ldl -lglfw -pthread -lm

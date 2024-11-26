@@ -6,7 +6,7 @@
 /*   By: jsilva-m <jsilva-m@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/03 09:30:08 by jsilva-m          #+#    #+#             */
-/*   Updated: 2024/11/22 10:38:08 by jsilva-m         ###   ########.fr       */
+/*   Updated: 2024/11/25 19:21:41 by jsilva-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_julia(t_fractal *f)
 {
+	if (!f)
+		return;
 	double	tmp;
 
 	f->z.real = (f->x - WIDTH / 2) * f->zoom / WIDTH + f->mv_h;

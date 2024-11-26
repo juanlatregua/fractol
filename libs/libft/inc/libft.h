@@ -6,7 +6,7 @@
 /*   By: jsilva-m <jsilva-m@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/25 17:37:21 by jsilva-m          #+#    #+#             */
-/*   Updated: 2024/10/03 10:14:35 by jsilva-m         ###   ########.fr       */
+/*   Updated: 2024/11/25 10:32:57 by jsilva-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ int					ft_memcmp(const void *s1, const void *s2, size_t size);
 void				*ft_memcpy(void *dest, const void *src, size_t size);
 void				ft_memfree_all(char **ptr);
 void				ft_memfree(void *ptr);
-void				*ft_memmove(void *dest, const void *src, size_t size);
+void				*ft_memmove(void *dst, const void *src, size_t size);
 void				*ft_memset(void *str, int c, size_t size);
 void				ft_putchar_fd(char c, int fd);
 void				ft_putendl_fd(char *s, int fd);
